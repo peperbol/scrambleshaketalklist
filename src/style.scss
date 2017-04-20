@@ -1,0 +1,48 @@
+body{
+  background-color: #fff529;
+  margin: 0;
+  font-family: consolas;
+  >ul{
+    list-style: none;
+
+    width: 640px;
+    height: 480px;
+    margin: auto;
+    padding: 10 0;
+    overflow-y: scroll;
+
+    li{
+      .time{
+        font-size:  18px;
+        padding-left:  110px;
+        padding-bottom:  10px;
+
+        font-weight: bold;
+      }
+      .block{
+        display: flex;
+        padding-bottom: 25px;
+        img{
+          height: 100px;
+          margin-right: 10px;
+        }
+        h1{
+          margin: 0;
+          font-family: consolas;
+          font-size: 20px;
+          font-weight: bold;
+          i::before{
+            display: inline;
+            content: " ";
+          }
+        }
+        .performer{
+        }
+      }
+    }
+    .a{
+      display: inline;
+      margin-left: 5px;
+    }
+  }
+}
